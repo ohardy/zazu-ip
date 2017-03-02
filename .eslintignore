@@ -1,0 +1,9 @@
+node_modules/**
+docs/**
+flow/**
+coverage/**
+scripts/**
+lib/**
+build-development/**
+build-production/**
+flow-typed/**

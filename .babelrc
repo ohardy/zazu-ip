@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "es2015",
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "syntax-export-extensions",
+    "transform-export-extensions",
+    "transform-class-properties",
+    "transform-flow-comments"
+  ],
+  "env": {
+    "production": {
+      "ignore": [
+        "__tests__",
+        "__mocks__"
+      ]
+    }
+  }
+}
